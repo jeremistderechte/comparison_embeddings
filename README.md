@@ -12,7 +12,7 @@ Before you begin, ensure you have the following installed:
 - **Python**
 - **Poetry**
 
-Make sure you have a fatabase (postgresql) running and pgvector installed, for ubuntu/debian systems you can install pgvector with this (postgresql is preinstalled on ubuntu):
+Make sure you have a database (postgresql) running and pgvector installed, for ubuntu/debian systems you can install pgvector with this (postgresql is preinstalled on ubuntu):
 
    ```bash
    sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
