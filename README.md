@@ -34,10 +34,11 @@ Before you begin, ensure you have the following installed:
    pgadmin4 will be installed over pip, you need to create folders for that if not already made:
 
     ```bash
-    sudo mkdir / var / lib / pgadmin
-    sudo mkdir / var / log / pgadmin
-    sudo chown \ $USER / var / lib / pgadmin
-    sudo chown \ $USER / var / log / pgadmin
+    sudo mkdir /var/lib/pgadmin
+    sudo mkdir /var/log/pgadmin
+    sudo chown \$USER /var/lib/ pgadmin
+    sudo chown \$USER /var/log/ pgadmin
+    pgadmin4
     ```
 3. **Activate the Virtual Environment**  
    Enter the virtual environment created by Poetry:
