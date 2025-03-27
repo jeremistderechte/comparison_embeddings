@@ -29,6 +29,7 @@ Before you begin, ensure you have the following installed:
    ```bash
    poetry install
    ```
+   If you don't want to use poetry there is also a requirements.txt.
 
 3. **Activate the Virtual Environment**  
    Enter the virtual environment created by Poetry:
