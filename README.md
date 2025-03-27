@@ -99,3 +99,4 @@ You can change these constants in the notebook:
 ## Dataset
 This project uses the [Amazon Reviews Dataset](https://www.kaggle.com/datasets/dongrelaxman/amazon-reviews-dataset), distributed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0). Please ensure compliance with its licensing terms if using or modifying this dataset.
 
+The dataset can be found in /data
