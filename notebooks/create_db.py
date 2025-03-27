@@ -3,7 +3,7 @@ from psycopg2 import sql
 from config import settings
 
 
-def create_tables():
+def create_tables() -> None:
     db_host = settings.host_ip
     db_user = settings.user_name
     db_password = settings.password
