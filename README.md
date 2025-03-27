@@ -22,7 +22,7 @@ Make sure you have a database (postgresql) running and pgvector installed, for u
    sudo apt-get update
    sudo apt-get upgrade
    sudo apt install postgresql-16-pgvector
-   sudo apt-get install libpq-dev # fuer psycopg2
+   sudo apt-get install libpq-dev # for psycopg2
    ```
 
 ### Step-by-Step Setup
