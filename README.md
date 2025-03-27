@@ -51,7 +51,9 @@ Before you begin, ensure you have the following installed:
    ```
 ## Usage
 
-Once everything is set up, you can run the project in the following file:
+Once everything is set up, you need to do this steps:
+
+Create your own database, see /notebooks/db.sql for an example. After that you can run the code in:
 
 ```bash
 /notebooks/embeddings.ipynb 
