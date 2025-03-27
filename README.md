@@ -12,6 +12,19 @@ Before you begin, ensure you have the following installed:
 - **Python**
 - **Poetry**
 
+Make sure you have a fatabase (postgresql) running and pgvector installed, for ubuntu/debian systems you can install pgvector with this (postgresql is preinstalled on ubuntu):
+
+   ```bash
+   sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
+
+   wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc |  sudo apt-key add -
+
+   sudo apt-get update
+   sudo apt-get upgrade
+   sudo apt install postgresql-16-pgvector
+   sudo apt-get install libpq-dev # fuer psycopg2
+   ```
+
 ### Step-by-Step Setup
 
 1. **Clone the Repository**  
@@ -60,7 +73,6 @@ Before you begin, ensure you have the following installed:
    host_port = "5432"
    ```
 ## Usage
-
 Once everything is set up, you need to do this steps:
 
 Create your own database, see /notebooks/db.sql for an example. After that you can run the code in:
