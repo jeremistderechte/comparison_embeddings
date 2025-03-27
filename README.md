@@ -81,6 +81,21 @@ Create your own database, see /notebooks/db.sql for an example. After that you c
 /notebooks/embeddings.ipynb 
 ```
 
+You can change these constants in the notebook:
+
+- DIMENSION_REDUCTION = True (Whether PCA should be used to reduce dimensions to 128)
+
+- PRINT_RESULT = False (Whether results should be printed during training)
+
+- VISUALIZE_EMBEDDINGS = False (Visualize embeddings using PCA in a 3D plot)
+
+- SAVE_EMBEDDINGS_TO_DB = True (Save embeddings to the database)
+
+- SAVE_RAW_TEXT_TO_DB = True (Save raw text to the database)
+
+
+
+
 ## Dataset
 This project uses the [Amazon Reviews Dataset](https://www.kaggle.com/datasets/dongrelaxman/amazon-reviews-dataset), distributed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0). Please ensure compliance with its licensing terms if using or modifying this dataset.
 
